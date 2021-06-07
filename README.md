@@ -72,3 +72,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Project documentation notes
 
+- npm install.
+- to run locally npm start.

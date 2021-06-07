@@ -2,11 +2,10 @@ import './App.css';
 import React from 'react';
 import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from "@apollo/react-hooks"
-import { PokemonContainer } from './PokemonContainer/PokemonContainer';
+import PokemonContainer from './PokemonContainer/PokemonContainer';
 
 
 // making a request to graphQl server //
-
 function App() {
   const client = new ApolloClient({
     uri: 'https://graphql-pokemon2.vercel.app'
